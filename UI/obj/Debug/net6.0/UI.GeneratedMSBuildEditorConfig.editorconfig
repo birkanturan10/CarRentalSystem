@@ -16,8 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\birka\Desktop\İ - Akademi Kurs ve Yazılım Projeleri\Projelerim\CarRentalSystem\UI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/birka/Desktop/İ - Akademi Kurs ve Yazılım Projeleri/Projelerim/CarRentalSystem/UI/Views/AdminPage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYWdlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs ve Yazılım Projeleri/Projelerim/CarRentalSystem/UI/Views/AdminPage/LoginAndSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYWdlXExvZ2luQW5kU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/birka/Desktop/İ - Akademi Kurs ve Yazılım Projeleri/Projelerim/CarRentalSystem/UI/Views/MainPage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birka/Desktop/İ - Akademi Kurs ve Yazılım Projeleri/Projelerim/CarRentalSystem/UI/Views/MainPage/LoginAndSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblBhZ2VcTG9naW5BbmRTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/birka/Desktop/İ - Akademi Kurs ve Yazılım Projeleri/Projelerim/CarRentalSystem/UI/Views/Shared/Error.cshtml]

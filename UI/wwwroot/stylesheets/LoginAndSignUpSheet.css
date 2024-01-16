@@ -7,6 +7,18 @@ body {
     background: linear-gradient(90deg, rgba(29,253,215,1) 18%, rgba(131,58,180,1) 50%, rgba(252,176,69,1) 82%);
 }
 
+.upbutton {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 10px; 
+    right: 10px; 
+}
+
+
 .wrapper {
     --input-focus: #2d8cf0;
     --font-color: #323232;
@@ -205,3 +217,34 @@ body {
     color: var(--font-color);
     cursor: pointer;
 } 
+
+/*Button*/
+
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+    .comic-button:hover {
+        background-color: #fff;
+        color: #ff5252;
+        border: 2px solid #ff5252;
+        box-shadow: 5px 5px 0px #ff5252;
+    }
+
+    .comic-button:active {
+        background-color: #fcf414;
+        box-shadow: none;
+        transform: translateY(4px);
+    }

@@ -245,8 +245,8 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\CarRentalSystem\\UI\\wwwroot\\stylesheets\\IndexSheet.css",
-      "PackagePath": "staticwebassets\\stylesheets\\IndexSheet.css"
+      "Id": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\CarRentalSystem\\UI\\wwwroot\\stylesheets\\LoginAndSignUpSheet.css",
+      "PackagePath": "staticwebassets\\stylesheets\\LoginAndSignUpSheet.css"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.UI.Microsoft.AspNetCore.StaticWebAssets.props",

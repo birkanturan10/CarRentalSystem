@@ -4,6 +4,11 @@ namespace UI.Controllers
 {
 	public class MainPageController : Controller
 	{
+		public IActionResult LoginAndSignUp()
+		{
+			return View();
+		}
+
 		public IActionResult Index()
 		{
 			return View();

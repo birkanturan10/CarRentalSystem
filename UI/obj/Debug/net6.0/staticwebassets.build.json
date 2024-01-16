@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bk8XE5F7OEuDV/Q1mtXJUXiuw0Grflh7o5mi/DItqB4=",
+  "Hash": "xo4Oq21+tGjsJTTVhcD3y5I9rGw6NvTBHCCsSmXLe00=",
   "Source": "UI",
   "BasePath": "_content/UI",
   "Mode": "Default",
@@ -1071,12 +1071,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\CarRentalSystem\\UI\\wwwroot\\stylesheets\\IndexSheet.css",
+      "Identity": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\CarRentalSystem\\UI\\wwwroot\\stylesheets\\LoginAndSignUpSheet.css",
       "SourceId": "UI",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\birka\\Desktop\\İ - Akademi Kurs ve Yazılım Projeleri\\Projelerim\\CarRentalSystem\\UI\\wwwroot\\",
       "BasePath": "_content/UI",
-      "RelativePath": "stylesheets/IndexSheet.css",
+      "RelativePath": "stylesheets/LoginAndSignUpSheet.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1085,7 +1085,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\stylesheets\\IndexSheet.css"
+      "OriginalItemSpec": "wwwroot\\stylesheets\\LoginAndSignUpSheet.css"
     }
   ]
 }
