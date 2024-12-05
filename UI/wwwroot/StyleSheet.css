@@ -1,0 +1,238 @@
+﻿html, body {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23008dd2' fill-opacity='0.11'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.11'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    display: flex; /* Flexbox ile sayfayı düzenlemek için */
+    justify-content: center; /* Formu yatayda ortalamak için */
+    align-items: center; /* Formu dikeyde ortalamak için */
+    margin: 0;
+    height: 100vh;
+}
+
+/* From Uiverse.io by ayyjayy2 */
+.form {
+    --input-focus: #2d8cf0;
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: beige;
+    --main-color: black;
+    padding: 20px;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+}
+
+.title {
+    color: var(--font-color);
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+    .title span {
+        color: var(--font-color-sub);
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+.input {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 5px 10px;
+    outline: none;
+}
+
+    .input::placeholder {
+        color: var(--font-color-sub);
+        opacity: 0.8;
+    }
+
+    .input:focus {
+        border: 2px solid var(--input-focus);
+    }
+
+.login-with {
+    display: flex;
+    gap: 20px;
+}
+
+.button-log {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    color: var(--font-color);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--main-color);
+}
+
+.button-log:active, .button-confirm:active {
+    box-shadow: 0px 0px var(--main-color);
+    transform: translate(3px, 3px);
+}
+
+.button-confirm {
+    margin: 50px auto 0 auto;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+}
+
+/* From Uiverse.io by doniaskima */
+.btn-53,
+.btn-53 *,
+.btn-53 :after,
+.btn-53 :before,
+.btn-53:after,
+.btn-53:before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+
+.btn-53 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+    background-color: #000;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+    padding: 0;
+}
+
+    .btn-53:disabled {
+        cursor: default;
+    }
+
+    .btn-53:-moz-focusring {
+        outline: auto;
+    }
+
+    .btn-53 svg {
+        display: block;
+        vertical-align: middle;
+    }
+
+    .btn-53 [hidden] {
+        display: none;
+    }
+
+.btn-53 {
+    border: 1px solid;
+    border-radius: 999px;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 900;
+    overflow: hidden;
+    padding: 1.2rem 3rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+    .btn-53 .original {
+        background: #fff;
+        color: #000;
+        display: grid;
+        inset: 0;
+        place-content: center;
+        position: absolute;
+        transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1);
+    }
+
+    .btn-53:hover .original {
+        transform: translateY(100%);
+    }
+
+    .btn-53 .letters {
+        display: inline-flex;
+    }
+
+    .btn-53 span {
+        opacity: 0;
+        transform: translateY(-15px);
+        transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1), opacity 0.2s;
+    }
+
+        .btn-53 span:nth-child(2n) {
+            transform: translateY(15px);
+        }
+
+    .btn-53:hover span {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+        .btn-53:hover span:nth-child(2) {
+            transition-delay: 0.1s;
+        }
+
+        .btn-53:hover span:nth-child(3) {
+            transition-delay: 0.2s;
+        }
+
+        .btn-53:hover span:nth-child(4) {
+            transition-delay: 0.3s;
+        }
+
+        .btn-53:hover span:nth-child(5) {
+            transition-delay: 0.4s;
+        }
+
+        .btn-53:hover span:nth-child(6) {
+            transition-delay: 0.5s;
+        }
+
+.container {
+    background: lightblue;
+    --input-focus: #2d8cf0;
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: beige;
+    --main-color: black;
+    padding: 20px;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+    color: var(--font-color);
+    font-weight: 900;
+    font-size: 18px;
+}
+
